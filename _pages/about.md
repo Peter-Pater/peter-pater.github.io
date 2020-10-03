@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Xincheng Huang"
+title: "Welcome to Xincheng's Website!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
