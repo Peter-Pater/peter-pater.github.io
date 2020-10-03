@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Xincheng is a Master's student in Computer Science and Engineering at Unversity of Michigan, where he is a research assistant at the Computational HCI Lab. His research interests are in the field of Human-Computer Interaction, and specifically the intersection between human behavior modeling and ubiquitous computing. In particular, he has the passion and working knowledge in a wide range of HCI-related subjects incuding human behavior modeling, wireless sensing, and VR/AR. He believes in utilizing a combination of these to enable and improve novel interactive experience and systems.
+Xincheng is a Master's student in Computer Science and Engineering at Unversity of Michigan, where he is a research assistant at the Computational HCI Lab. His research interests are in the field of Human-Computer Interaction, and specifically the intersection between human behavior modeling and ubiquitous computing. In particular, he has the passion and working knowledge in a wide range of HCI-related subjects incuding human behavior modeling, wireless sensing, and VR/AR. He is eager to utilize a combination of these to enable and improve novel interactive experience and systems.
 
 Here is a list of things he is currently working on:
 - StructureSense: a system that provides real-time predictions for structure building procedures. 
