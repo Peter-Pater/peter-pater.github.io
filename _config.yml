@@ -11,8 +11,9 @@ title                    : "Xincheng Huang"
 title_separator          : "-"
 name                     : &name "Xincheng Huang"
 description              : &description "M.S. student at University of Michigan"
-url                      : https://peter-pater.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+# url                      : https://peter-pater.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://localhost:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "peter-pater/peter-pater.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -85,9 +86,9 @@ author:
   bio              : "M.S. student at University of Michigan"
   location         : "Ann Arbor, Michigan"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed           : 
   googlescholar    : # yet to come
-  email            :
+  email            : xchuang@umich.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
