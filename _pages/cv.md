@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download full CV here](http://localhost:4000/files/Xincheng_Huang_CV.pdf)
+[Download full CV here](https://peter-pater.github.io/files/Xincheng_Huang_CV.pdf)
 
 Education
 ======
