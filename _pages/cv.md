@@ -11,7 +11,7 @@ redirect_from:
 
 [Download full CV here](https://peter-pater.github.io/files/Xincheng_Huang_CV.pdf)
 
-Education
+<!-- Education
 ======
 * B.S. in Computer Science, New York University Shanghai, 2019
 * B.S. in Interactive Media Arts, New York University Shanghai, 2019

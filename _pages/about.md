@@ -10,9 +10,9 @@ redirect_from:
 
 Hi, I am Xincheng Huang! I am a Master's student in Computer Science and Engineering at Unversity of Michigan, where I am currently a research assistant at the Computational HCI Lab. My research interest is in the field of Human-Computer Interaction, and specifically in creating intelligent interactive systems that understand and serve people better with technologies such as context-aware sensing, computational modeling, and virtual reality. 
 
-Here is a list of things he is currently working on:
+Here is a list of things I am currently working on:
 - StructureSense: a system that provides real-time predictions for structure building procedures. 
-- Ubichromics Laser: a project that explores the possible interactions with laser and photochromic paints.
+<!-- - Ubichromics Laser: a project that explores the possible interactions with laser and photochromic paints. -->
 - Liveroom: a start-up website that enables a virutal performing stage for professional artists and musicians.
 
 <!-- Check the [research](http://localhost:4000/publications/) and [portfolio](http://localhost:4000/portfolio/) pages for more! -->
