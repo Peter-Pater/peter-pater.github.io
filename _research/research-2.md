@@ -10,4 +10,4 @@ This project enables telepresence communication in virtual reality. We captured 
 
 <b>Note</b>: the actual paper title and abstract are reducted to comply with the anonymity requirement in the review process.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1jaxrSbepB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=osA0-plRdEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
