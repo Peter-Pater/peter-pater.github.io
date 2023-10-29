@@ -1,0 +1,13 @@
+---
+title: "[Paper Under Review] Synchronous Remote Space Sharing with Sketch-based Virtual Content Creation"
+excerpt: "A symmetric and synchronous remote mixed-reality collaboration system with minimal requirement on spatial similarity, and coupled with ad-hoc sketch-based virtual content creation. Currently in review and resubmission (R&R) phase at CHI 2023<br/><img src='/images/sharespace.png' width='800'><br/>[[video](https://youtu.be/V75vpEOLAp4)][[project page](http://peter-pater.github.io/research/research-3/)]"
+collection: research
+---
+
+<!-- Immersive augmented reality systems enable users to seamlessly overlay virtual content onto their physical environments. However, remote collaboration in immersive AR is limited by misalignment between distinct physical environments, forcing users to rely heavily on virtual content or essentially identical physical spaces. We present <i>ShareSpace</i>, a head-mounted mixed reality system that establishes a shared workspace between two remote users anchored on a physical plane in each environment, such as a desk or a wall. The head-stabilized video feed of each user’s physical surface is overlaid virtually on the other side, creating a shared view of the physical space, while virtual objects can be created and manipulated in the shared reference frame. We discuss the design, implementation, and interaction capabilities of our prototype. We demonstrate the utility of ShareSpace through four example applications and a qualitative user study. -->
+
+This project creates a lightweight shared mixed reality workspace that supports 2.5D physical tasks and 3D virtual tasks for remote users with Microsoft HoloLens 2 mixed reality headsets. In this project, we merged users’ selected physical surfaces captured by the HoloLens’ front camera with color-channel background-subtraction, stabilized the video feeds with holographic projection, created a virtual workspace that synchronized two remote users’ spatial awareness by using the shared physical surfaces as spatial anchors, and bridged the physical workspace and the virtual workspace by enabling virtual object creation from planar physical objects such as hand-drawn patterns and shapes cut from paper.
+
+<b>Note</b>: the actual paper title and abstract are reducted to comply with the anonymity requirement in the review process.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V75vpEOLAp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
