@@ -1,6 +1,6 @@
 ---
 title: "Telewindow: Telepresence with 3D Reconstructed Video Streaming (Undergraduate Thesis for Computer Science at NYU Shanghai)"
-excerpt: "This project enables 3D teleconferencing by streaming 3D figures reconstructed with 3D point clouds. <br/><img src='/images/telewindow.png' width='800'><br/>[[project page](http://peter-pater.github.io/research/research-0/)][[poster](http://peter-pater.github.io/files/senior_project_poster.pdf)][[PDF](http://peter-pater.github.io/files/senior_project_report.pdf)]"
+excerpt: "This project enables 3D teleconferencing by streaming 3D figures reconstructed with 3D point clouds. <br/><img src='/images/telewindow.png' width='800'><br/>[[project page](https://peter-pater.github.io/research/research-0/)][[poster](https://peter-pater.github.io/files/senior_project_poster.pdf)][[PDF](https://peter-pater.github.io/files/senior_project_report.pdf)]"
 collection: research
 ---
 

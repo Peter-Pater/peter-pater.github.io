@@ -1,7 +1,7 @@
 ---
 title: "StructureSense: Inferring Constructive Assembly Structures from User Behaviors (IMWUT, Dec, 2022)"
 excerpt: "A tracking system based on passive UHF-RFID sensing that infers constructive assembly structures from object motion. <br/><br/><b>Cite</b>: Xincheng Huang, Keylonnie L Miller, Alanson P. Sample, and Nikola Banovic. 2022. StructureSense: Inferring Constructive Assembly Structures from User Behaviors. <i>Proc. ACM Interact. Mob. Wearable Ubiquitous Technol</i>. 6, 4, Article 204 (December 2022),
-25 pages. [https://doi.org/10.1145/3570343](https://doi.org/10.1145/3570343) <br/><img src='/images/StructureSense.png' width='800'><br/>[[video](https://youtu.be/k4AENLKKiLY)][[project page](http://peter-pater.github.io/research/research-1/)][[PDF](http://peter-pater.github.io/files/StructureSense_Paper.pdf)]"
+25 pages. [https://doi.org/10.1145/3570343](https://doi.org/10.1145/3570343) <br/><img src='/images/StructureSense.png' width='800'><br/>[[video](https://youtu.be/k4AENLKKiLY)][[project page](https://peter-pater.github.io/research/research-1/)][[PDF](https://peter-pater.github.io/files/StructureSense_Paper.pdf)]"
 collection: research
 ---
 
@@ -9,6 +9,6 @@ collection: research
 
 <b>Cite:</b>: Xincheng Huang, Keylonnie L Miller, Alanson P. Sample, and Nikola Banovic. 2022. StructureSense: Inferring Constructive Assembly Structures from User Behaviors. <i>Proc. ACM Interact. Mob. Wearable Ubiquitous Technol</i>. 6, 4, Article 204 (December 2022), 25 pages. <a href="https://doi.org/10.1145/3570343" target="_blank">https://doi.org/10.1145/3570343</a>
 
-[[Download Paper](http://peter-pater.github.io/files/StructureSense_Paper.pdf)]
+[[Download Paper](https://peter-pater.github.io/files/StructureSense_Paper.pdf)]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k4AENLKKiLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

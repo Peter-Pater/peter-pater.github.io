@@ -1,6 +1,6 @@
 ---
 title: "[Paper Under Review] Synchronous Remote Space Sharing with Sketch-based Virtual Content Creation"
-excerpt: "A symmetric and synchronous remote mixed-reality collaboration system with minimal requirement on spatial similarity, and coupled with ad-hoc sketch-based virtual content creation. Currently in review and resubmission (R&R) phase at CHI 2023<br/><img src='/images/sharespace.png' width='800'><br/>[[video](https://youtu.be/V75vpEOLAp4)][[project page](http://peter-pater.github.io/research/research-3/)]"
+excerpt: "A symmetric and synchronous remote mixed-reality collaboration system with minimal requirement on spatial similarity, and coupled with ad-hoc sketch-based virtual content creation. Currently in review and resubmission (R&R) phase at CHI 2023<br/><img src='/images/sharespace.png' width='800'><br/>[[video](https://youtu.be/V75vpEOLAp4)][[project page](https://peter-pater.github.io/research/research-3/)]"
 collection: research
 ---
 

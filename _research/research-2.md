@@ -1,6 +1,6 @@
 ---
 title: "[Paper Under Review] Telepresence with 5G 360 Video in Virtual Reality"
-excerpt: "A virtual reality telepresence system with 360 video streamed with 5G milimeter wave. Currently under review at Graphic Interface 2023<br/><img src='/images/5gvr.png' width='800'><br/>[[video](https://youtu.be/1jaxrSbepB0)][[project page](http://peter-pater.github.io/research/research-2/)]"
+excerpt: "A virtual reality telepresence system with 360 video streamed with 5G milimeter wave. Currently under review at Graphic Interface 2023<br/><img src='/images/5gvr.png' width='800'><br/>[[video](https://youtu.be/1jaxrSbepB0)][[project page](https://peter-pater.github.io/research/research-2/)]"
 collection: research
 ---
 

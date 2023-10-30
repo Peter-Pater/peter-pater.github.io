@@ -12,6 +12,6 @@ citation: 'Xincheng Huang, Keylonnie L Miller, Alanson P. Sample, and Nikola Ban
 
 <!-- <b>Cite:</b>: Xincheng Huang, Keylonnie L Miller, Alanson P. Sample, and Nikola Banovic. 2022. StructureSense: Inferring Constructive Assembly Structures from User Behaviors. <i>Proc. ACM Interact. Mob. Wearable Ubiquitous Technol</i>. 6, 4, Article 204 (December 2022), 25 pages. <a href="https://doi.org/10.1145/3570343" target="_blank">https://doi.org/10.1145/3570343</a> -->
 
-<!-- [[Download Paper](http://peter-pater.github.io/files/StructureSense_Paper.pdf)] -->
+<!-- [[Download Paper](https://peter-pater.github.io/files/StructureSense_Paper.pdf)] -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k4AENLKKiLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
