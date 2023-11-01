@@ -1,6 +1,6 @@
 ---
 title: "Virtual Educational Manufacture Space (DAPCEP 2020)"
-excerpt: "This project builds a virtual manufacture space for educational purpose. This project was done as a part of the Detroit Area Pre-college Engineering Program (DAPCEP), which tries to provide educational opportunities for pre-college students <br/><img src='/images/manu.png' width='800'><br/>[[video](https://youtu.be/8b2H4jrYQ3w)][[project page](/other/2-virtual-edu-depcep/)]"
+excerpt: "This project builds a virtual manufacture space for educational purpose. This project was done as a part of the Detroit Area Pre-college Engineering Program (DAPCEP), which tries to provide educational opportunities for pre-college students <br/><img src='/images/manu.png' width='800'><br/>[[video](https://youtu.be/8b2H4jrYQ3w)][[project page](/other/3-virtual-edu-depcep/)]"
 collection: other
 ---
 
