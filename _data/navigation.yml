@@ -5,15 +5,15 @@ main:
 
   # - title: "Talks"
   #   url: /talks/    
-
-  # - title: "Research"
-  #   url: /research/
   
   - title: "Teaching"
     url: /teaching/    
         
   # - title: "Blog Posts"
   #   url: /year-archive/
+
+  - title: "Other"
+    url: /other/
     
   - title: "CV"
     url: /files/xincheng_huang_cv.pdf

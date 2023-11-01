@@ -1,7 +1,7 @@
 ---
 title: "Immersive Strategies: A First-Person Perspective Chess in VR (Undergraduate Thesis for Interactive Media Arts at NYU Shanghai)"
-excerpt: "This project builds a human-sized chess set in VR that allows a player to play a chess game as any of the chess pieces from a first-person perspective and explores the possibility of providing immersive interactions and strategic challenges in one single game. <br/><img src='/images/immersive_chess.png' width='800'><br/>[[video](https://youtu.be/RkWFrQWl4dw)][[project page](https://peter-pater.github.io/research/research-00/)][[IMA Capstone Archive](https://wp.nyu.edu/shanghai-ima-capstonestudio/xh721/)]"
-collection: research
+excerpt: "This project builds a human-sized chess set in VR that allows a player to play a chess game as any of the chess pieces from a first-person perspective and explores the possibility of providing immersive interactions and strategic challenges in one single game. <br/><img src='/images/immersive_chess.png' width='800'><br/>[[video](https://youtu.be/RkWFrQWl4dw)][[project page](/research/0-ima-nyush-thesis/)][[IMA Capstone Archive](https://wp.nyu.edu/shanghai-ima-capstonestudio/xh721/)]"
+collection: other
 ---
 
 A common and easily neglected fact about games is how many of them are actually virtual representations of warfare. These games can be further roughly put into two categories, third-person strategic games such as StarCraft or Command and Conquer, and first-person combat games such as Counter-Strike. The former is usually more intellectually engaging but the players won’t feel as physically involved as first-person combat games. Both these two categories have their own merits. However, they are usually considered separated and seldom have we seen attempts of combining their advantages together. Therefore, one interesting question would be how a game will be like if we had the strategic components and the first-person combating components combined together.
