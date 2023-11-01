@@ -1,6 +1,6 @@
 ---
 title: "Immersive Strategies: A First-Person Perspective Chess in VR (Undergraduate Thesis for Interactive Media Arts at NYU Shanghai)"
-excerpt: "This project builds a human-sized chess set in VR that allows a player to play a chess game as any of the chess pieces from a first-person perspective and explores the possibility of providing immersive interactions and strategic challenges in one single game. <br/><img src='/images/immersive_chess.png' width='800'><br/>[[video](https://youtu.be/RkWFrQWl4dw)][[project page](/research/0-ima-nyush-thesis/)][[IMA Capstone Archive](https://wp.nyu.edu/shanghai-ima-capstonestudio/xh721/)]"
+excerpt: "This project builds a human-sized chess set in VR that allows a player to play a chess game as any of the chess pieces from a first-person perspective and explores the possibility of providing immersive interactions and strategic challenges in one single game. <br/><img src='/images/immersive_chess.png' width='800'><br/>[[video](https://youtu.be/RkWFrQWl4dw)][[project page](/other/0-ima-nyush-thesis/)][[IMA Capstone Archive](https://wp.nyu.edu/shanghai-ima-capstonestudio/xh721/)]"
 collection: other
 ---
 
