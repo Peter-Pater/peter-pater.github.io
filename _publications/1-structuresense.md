@@ -14,4 +14,9 @@ citation: 'Xincheng Huang, Keylonnie L Miller, Alanson P. Sample, and Nikola Ban
 
 <!-- [[Download Paper](https://peter-pater.github.io/files/StructureSense_Paper.pdf)] -->
 
+<b>Demo</b>:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k4AENLKKiLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<b>Talk</b>:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nfsw2vfuUL8?si=Ap4tsxSLyZSF9NGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

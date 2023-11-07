@@ -12,4 +12,9 @@ citation: 'Xincheng Huang, James Riddell, and Robert Xiao, "Virtual Reality Tele
 
 <!-- <b>Cite:</b>: X. Huang, J. Riddell and R. Xiao, "Virtual Reality Telepresence: 360-Degree Video Streaming with Edge-Compute Assisted Static Foveated Compression," in <i>IEEE Transactions on Visualization and Computer Graphics</i>, doi: <a href="https://doi.org/10.1145/3570343" target="_blank">10.1109/TVCG.2023.3320255</a>. -->
 
+<b>Demo</b>:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/osA0-plRdEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<b>Talk</b>:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lNYzxqzE3W4?si=z80UabdY05qRw7x_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

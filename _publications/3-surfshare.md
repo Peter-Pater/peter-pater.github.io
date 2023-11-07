@@ -2,7 +2,7 @@
 title: "SurfShare: Lightweight Spatially Consistent Physical Surface and Virtual Replica Sharing with Head-mounted Mixed-Reality (to appear)"
 collection: publications
 permalink: /publication/surf-share
-excerpt: "A lightweight symmetric and synchronous remote mixed-reality collaboration system with ad-hoc sketch-based virtual content creation. Paper to appear, so get a preprint [here](/files/SurfShare_Paper.pdf)."
+excerpt: "A lightweight symmetric and synchronous remote mixed-reality collaboration system with ad-hoc sketch-based virtual content creation. You can get a preprint of the paper [here](/files/SurfShare_Paper.pdf)."
 date: 2023-12-01
 venue: 'Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. Volume 7, Issue 4.'
 paperurl: 'https://doi.org/10.1145/3631418'
