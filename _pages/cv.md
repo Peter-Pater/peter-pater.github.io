@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](https://peter-pater.github.io/files/xincheng_huang_cv.pdf)
+[Download CV](files/xincheng_huang_cv.pdf)
 
 <!-- Education
 ======
