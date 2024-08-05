@@ -1,7 +1,7 @@
 ---
 title: "Virtual Reality Telepresence: 360-Degree Video Streaming with Edge-Compute Assisted Static Foveated Compression"
 collection: publications
-permalink: /publication/vr-telepresence
+permalink: /publications/vr-telepresence
 excerpt: "A 360&deg; virtual reality telepresence system with edge-compute assisted static foveated compression"
 date: 2023-10-01
 venue: 'IEEE Transactions on Visualization and Computer Graphics'

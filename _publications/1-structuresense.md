@@ -1,7 +1,7 @@
 ---
 title: "StructureSense: Inferring Constructive Assembly Structures from User Behaviors"
 collection: publications
-permalink: /publication/structuresense
+permalink: /publications/structuresense
 excerpt: "A tracking system based on passive UHF-RFID sensing that infers constructive assembly structures from object motion."
 date: 2022-12-01
 venue: 'Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. Volume 6, Issue 4.'

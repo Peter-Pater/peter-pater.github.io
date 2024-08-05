@@ -1,7 +1,7 @@
 ---
 title: "VirtualNexus: Enhancing 360-Degree Video AR/VR Collaboration with Environment Cutouts and Virtual Replicas"
 collection: publications
-permalink: /publication/virtual-nexus
+permalink: /publications/virtual-nexus
 excerpt: "A 360° Video AR/VR Remote Collaborative System with Enhanced Interactivity. The system enables better access to the remote environment with <i>Environment Cutouts</i> that can be pulled closer, and <i>Virtual Replcas</i> created with Instant-ngp."
 date: 2024-08-01
 venue: 'The 37th Annual ACM Symposium on User Interface Software and Technology (UIST ’24)'
