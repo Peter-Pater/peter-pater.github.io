@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Download CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](files/xincheng_huang_cv.pdf)
+[Download CV](files/xincheng_huang_cv.pdf){:target="_blank"}
 
 <!-- Education
 ======

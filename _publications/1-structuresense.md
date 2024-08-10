@@ -18,4 +18,4 @@ citation: 'Xincheng Huang, Keylonnie L Miller, Alanson P. Sample, and Nikola Ban
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nfsw2vfuUL8?si=Ap4tsxSLyZSF9NGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
 
-**Paper**: [DOWNLOAD PDF](/files/1-structuresense.pdf)
+**Paper**: [DOWNLOAD PDF](/files/1-structuresense.pdf){:target="_blank"}

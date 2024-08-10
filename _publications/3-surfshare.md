@@ -14,4 +14,4 @@ citation: 'Xincheng Huang and Robert Xiao. 2023. SurfShare: Lightweight Spatiall
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vz5zF5Sl5LQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
 
-**Paper**: [DOWNLOAD PDF](/files/3-surfshare.pdf)
+**Paper**: [DOWNLOAD PDF](/files/3-surfshare.pdf){:target="_blank"}

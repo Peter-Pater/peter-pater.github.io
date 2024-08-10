@@ -18,4 +18,4 @@ citation: 'Xincheng Huang, James Riddell, and Robert Xiao, "Virtual Reality Tele
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNYzxqzE3W4?si=z80UabdY05qRw7x_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
 
-**Paper**: [DOWNLOAD PDF](/files/2-vrtelepresence.pdf)
+**Paper**: [DOWNLOAD PDF](/files/2-vrtelepresence.pdf){:target="_blank"}
