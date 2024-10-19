@@ -14,4 +14,8 @@ citation: 'Xincheng Huang, Michael Yin, Ziyi Xia, and Robert Xiao. 2024. Virtual
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P4gYAOsB7-c?si=1anac18ubOa0tA1n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
+<br/>
+<b>Talk</b>:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8XO6MNhnuSY?si=IV6JA4oDr9JkHwS9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Paper**: [DOWNLOAD PDF](/files/4-virtualnexus.pdf){:target="_blank"}
