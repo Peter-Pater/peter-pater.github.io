@@ -12,8 +12,8 @@ main:
   - title: "Other"
     url: /other/
     
-  - title: "Download CV"
-    url: /files/xincheng_huang_cv.pdf
+  # - title: "Download CV"
+  #   url: /files/xincheng_huang_cv.pdf
     
   # - title: "Blog Posts"
   #   url: /year-archive/
