@@ -15,7 +15,7 @@ I am a Ph.D. student in Computer Science at <a href="https://www.ubc.ca/" style=
 
 [Jan 2025] I will be serving as an Associate Chair (AC) on the Program Committee of <a href="https://chi2025.acm.org/for-authors/late-breaking-work/" style="text-decoration:none">CHI 2025 Late-Breaking Work (LBW)</a>.
 
-[Jan 2025] Our paper HaloTouch: Using IR Multi-Path Interference to Support Touch Interactions with General Surfaces, has been conditionally accepted to <a href="https://chi2025.acm.org/" style="text-decoration:none">CHI 2025</a>!
+[Jan 2025] Our paper <a href="/publications/halotouch" style="text-decoration:none">HaloTouch: Using IR Multi-Path Interference to Support Touch Interactions with General Surfaces</a>, has been accepted to <a href="https://chi2025.acm.org/" style="text-decoration:none">CHI 2025</a>!
 
 [Dec 2024] Our paper VibRing: A Wearable Vibroacoustic Sensor for Single-Handed Gesture Recognition, has been conditionally accepted to <a href="https://eics.acm.org/2025/" style="text-decoration:none">ACM EICS 2025</a> (to appear in the <a href="https://dl.acm.org/journal/pacmhci/tracks/eics" style="text-decoration:none">PACM HCI, Vol. 9, Issue EICS</a>).
 
