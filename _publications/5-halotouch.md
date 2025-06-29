@@ -2,7 +2,7 @@
 title: "HaloTouch: Using IR Multi-Path Interference to Support Touch Interactions with General Surfaces"
 collection: publications
 permalink: /publications/halotouch
-excerpt: "We developed HaloTouch, a vision-based system which exploits a multipath interference effect from an off-the-shelf time-of-flight depth camera to enable fast, accurate touch interactions on general surfaces."
+excerpt: "A vision-based system which exploits a multipath interference effect from an off-the-shelf time-of-flight depth camera to enable fast, accurate touch interactions on general surfaces."
 date: 2025-05-08
 venue: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)"
 paperurl: 'https://doi.org/10.1145/3706598.3714179'
