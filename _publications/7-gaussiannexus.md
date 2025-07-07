@@ -2,7 +2,7 @@
 title: "GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting (Conditionally Accepted)"
 collection: publications
 permalink: /publications/gaussiannexus
-excerpt: "A Room-scale real-time AR/VR telepresence system with Gaussian Splatting. Our system provides 2D live updates with rectified video stream captured by the 360° camera. It then offer 3D live updates by tracking the movements of individual physical objects pre-selected by the users."
+excerpt: "A Room-scale real-time AR/VR telepresence system with Gaussian Splatting. Our system provides 2D live updates with rectified video stream captured by the 360° camera. It then offers 3D live updates by tracking the movements of individual physical objects pre-selected by the users."
 date: 2025-9-21
 venue: "The 38th Annual ACM Symposium on User Interface Software and Technology (UIST ’25)"
 # paperurl: 'https://doi.org/10.1145/3733052'

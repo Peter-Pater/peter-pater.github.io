@@ -21,9 +21,7 @@ I am a Ph.D. student in Computer Science at <a href="https://www.ubc.ca/" style=
 
 [Oct 2024] I attended <a href="https://iss2024.acm.org/" style="text-decoration:none">ACM Interactive Surfaces and Spaces (ISS) 2024</a> as a Student Volunteer.
 
-[Oct 2024] Our paper, <a href="/publications/virtual-nexus" style="text-decoration:none">VirtualNexus: Enhancing 360-Degree Video AR/VR Collaboration with Environment Cutouts and Virtual Replicas</a> was presented by my advisor Robert Xiao on our behalf at <a href="https://uist.acm.org/2024/" style="text-decoration:none" target="_blank">UIST 2024</a> in Pittsburgh, United States.
-
-[Oct 2024] I presented <a href="/publications/surf-share" style="text-decoration:none">SurfShare: Lightweight Spatially Consistent Physical Surface and Virtual Replica Sharing with Head-mounted Mixed-Reality</a> at <a href="https://www.ubicomp.org/ubicomp-iswc-2024/" style="text-decoration:none" target="_blank">Ubicomp 2024</a> in Melbourne, Australia!
+[Oct 2024] I presented <a href="/publications/surf-share" style="text-decoration:none">SurfShare</a> at <a href="https://www.ubicomp.org/ubicomp-iswc-2024/" style="text-decoration:none" target="_blank">Ubicomp 2024</a> in Melbourne, Australia!
 
 [Aug 2024] Our paper <a href="/publications/virtual-nexus" style="text-decoration:none">VirtualNexus: Enhancing 360-Degree Video AR/VR Collaboration with Environment Cutouts and Virtual Replicas</a> has been accepted to <a href="https://uist.acm.org/2024/" style="text-decoration:none" target="_blank">UIST 2024</a>!
 
