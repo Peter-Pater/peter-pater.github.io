@@ -1,5 +1,5 @@
 ---
-title: "GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting (Conditionally Accepted)"
+title: "GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting"
 collection: publications
 permalink: /publications/gaussiannexus
 excerpt: "A Room-scale real-time AR/VR telepresence system with Gaussian Splatting. Our system provides 2D live updates with rectified video stream captured by the 360° camera. It then offers 3D live updates by tracking the movements of individual physical objects pre-selected by the users."
@@ -13,6 +13,10 @@ citation: "Xincheng Huang, Dieter Frehlich, Ziyi Xia, Peyman Gholami, and Robert
 
 **Paper**: Coming Soon :-)
 
+<b>Video Preview</b>:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gCcnKlEnRGA?si=o2umIF6i2cnSxY5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br/>
+
 <b>Demo</b>:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wVm5kIr1ntY?si=4KjVU687SUp-8ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ghq1xLEmyvE?si=-3NLC-D5VDnFwM66" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
