@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "Hi there!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science at <a href="https://www.ubc.ca/" style="text-decoration:none" target="_blank">University of British Columbia</a> supervised by Dr. <a href="https://www.robertxiao.ca/" style="text-decoration:none" target="_blank">Robert Xiao</a>. My research interests are in Human-Computer Interaction (HCI), with a focus on enhancing the reality and interactivity in AR/VR telepresence. For more realistic telepresence, I explore novel immersive media that promise photo-realistic fidelity, from the more common 360-degree video to the emerging differentiable rendering techniques such as NeRF and Gaussian Splatting. As I adapt them to AR/VR telepresence, I design and create novel interactive techniques that facilitate co-presence and collaborative awareness. My research has led to publications at UIST, CHI, Ubicomp, and TVCG (please see <a href="/publications" style="text-decoration:none">publications</a> for details). I hope my endeavor will make future telepresence experience more natural, seamless, and enjoyable. Before UBC, I received my M.S. in Computer Science and Engineering at <a href="https://umich.edu/" style="text-decoration:none" target="_blank">University of Michigan</a>, where I worked with Dr. <a href="http://www.nikolabanovic.net/" style="text-decoration:none" target="_blank">Nikola Banovic</a> and Dr. <a href="https://www.alansonsample.com/" style="text-decoration:none" target="_blank">Alanson Sample</a> to track assembly tasks (e.g., Lego, furniture) with UHF-RFID sensing and Bayesian inference. Before that, I obtained my B.S. in Computer Science (with a secondary major in Interactive Media Arts) from <a href="https://shanghai.nyu.edu/" style="text-decoration:none" target="_blank">New York University Shanghai</a>. During my leisure time, I enjoy playing guitar and tennis.
+I am a Ph.D. student in Computer Science at <a href="https://www.ubc.ca/" style="text-decoration:none" target="_blank">University of British Columbia</a> supervised by Dr. <a href="https://www.robertxiao.ca/" style="text-decoration:none" target="_blank">Robert Xiao</a>. My research interests are in telepresence, AR/VR interactive techniques, and Human-Computer Interaction (HCI).
+
+My Ph.D. thesis revolves around making spatial telepresence more natural by enhancing three key aspects: *realism*, *interactivity*, and *collaborative awareness*. For *realism*, I investigated hyper-realistic scene representations (e.g., 360° video, NeRF, Gaussian Splatting) and spatial alignment across heterogeneous environments. For *interactivity*, I enable users to navigate remote spaces and share 2D and 3D physical objects across distance. My work also draws on groupware and proxemics literature to guide design and reflect on *collaborative awareness*. For more details, please see <a href="#selected-publications" style="text-decoration:none">selected publications</a>.
+
+Beside my thesis work, I am also broadly interested in AR/VR interactive techniques and sensing. I have explored assembly tracking with RFID sensing, touch inputs on physical surfaces for AR, and gesture sensing through piezo signals. My research has let to publications in ACM CHI, UIST, Ubicomp/IMWUT, and IEEE TVCG. For a full list, please see <a href="/publications" style="text-decoration:none">publications</a>. 
+
+Before UBC, I received my M.S. at <a href="https://umich.edu/" style="text-decoration:none" target="_blank">University of Michigan</a>, where advised by <a href="http://www.nikolabanovic.net/" style="text-decoration:none" target="_blank">Nikola Banovic</a> and <a href="https://www.alansonsample.com/" style="text-decoration:none" target="_blank">Alanson Sample</a>. Before that, I obtained my B.S. from <a href="https://shanghai.nyu.edu/" style="text-decoration:none" target="_blank">New York University Shanghai</a>.
+
+ <!-- During my leisure time, I enjoy playing guitar and tennis. -->
 
 <!-- ===================== Selected Publications ===================== -->
 <style>
@@ -21,7 +29,7 @@ I am a Ph.D. student in Computer Science at <a href="https://www.ubc.ca/" style=
     /* margin-bottom: 0.9rem; */
   }
   .pub-thumb {
-    flex: 0 0 160px; width: 160px; height: 120px; overflow: hidden; border-radius: 10px;
+    flex: 0 0 200px; width: 200px; height: 150px; overflow: hidden; border-radius: 10px;
     background: #f3f4f6;
   }
   .pub-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -45,81 +53,74 @@ I am a Ph.D. student in Computer Science at <a href="https://www.ubc.ca/" style=
   }
 </style>
 
-<div class="pubs">
+<div class="pubs" id="selected-publications">
   <h2>Selected Publications</h2>
-  <p>Please see a full list of my publications <a href="/publications" style="text-decoration:none">here</a> or download my <a href="/files/xincheng_huang_cv.pdf" style="text-decoration:none">CV</a></p>
+  <p>Please see a full list of my publications <a href="/publications" style="text-decoration:none">HERE</a> or download my <a href="/files/xincheng_huang_cv.pdf" style="text-decoration:none">CV</a></p>
 
   <!-- GaussianNexus (UIST 2025) -->
   <div class="pub-item">
     <a class="pub-thumb" href="/publications/gaussiannexus">
-      <img src="/assets/img/pubs/gaussiannexus-thumb.jpg" alt="GaussianNexus thumbnail">
+      <img src="/images/thumbnails/gaussiannexus_tn.png" alt="GaussianNexus thumbnail">
     </a>
     <div class="pub-body">
       <p class="pub-title">
         <a href="/publications/gaussiannexus" style="text-decoration:none">GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting</a>
       </p>
-      <p class="pub-desc"><u>Xincheng Huang</u>, Dieter Frehlich, Ziyi Xia, Peyman Gholami, and Robert Xiao. In UIST' 25. ACM, New York, NY, USA, 18 pages. <a href="https://doi.org/10.1145/3746059.3747693">https://doi.org/10.1145/3746059.3747693</a></p>
+      <p class="pub-desc"><u>Xincheng Huang</u>, Dieter Frehlich, Ziyi Xia, Peyman Gholami, and Robert Xiao. In Proc. UIST' 25. ACM, New York, NY, USA, 18 pages. [<a href="/publications/gaussiannexus">Details</a>]</p>
+      <!-- [<a href="https://doi.org/10.1145/3746059.3747693">Publisher</a>] -->
+      <!-- [<a href="/files/7-gaussiannexus.pdf">PDF</a>] -->
     </div>
   </div>
 
   <!-- VirtualNexus (UIST 2024) -->
   <div class="pub-item">
     <a class="pub-thumb" href="/publications/virtual-nexus">
-      <img src="/assets/img/pubs/virtualnexus-thumb.jpg" alt="VirtualNexus thumbnail">
+      <img src="/images/thumbnails/virtualnexus_tn.png" alt="VirtualNexus thumbnail">
     </a>
     <div class="pub-body">
       <p class="pub-title">
         <a href="/publications/virtual-nexus" style="text-decoration:none">VirtualNexus: Enhancing 360-Degree Video AR/VR Collaboration with Environment Cutouts and Virtual Replicas</a>
       </p>
-      <p class="pub-desc"><u>Xincheng Huang</u>, Michael Yin, Ziyi Xia, and Robert Xiao. In UIST' 24. ACM, New York, NY, USA, 12 pages. <a href="https://doi.org/10.1145/3654777.3676377">https://doi.org/10.1145/3654777.3676377</a></p>
+      <p class="pub-desc"><u>Xincheng Huang</u>, Michael Yin, Ziyi Xia, and Robert Xiao. In Proc. UIST' 24. ACM, New York, NY, USA, Article 55, 12 pages. [<a href="https://doi.org/10.1145/3654777.3676377">Publisher</a>] [<a href="/publications/virtual-nexus">Details</a>] [<a href="/files/4-virtualnexus.pdf">PDF</a>]</p>
     </div>
   </div>
 
   <!-- SurfShare (IMWUT 2023) -->
   <div class="pub-item">
     <a class="pub-thumb" href="/publications/surf-share">
-      <img src="/assets/img/pubs/surfshare-thumb.jpg" alt="SurfShare thumbnail">
+      <img src="/images/thumbnails/surfshare_tn.jpeg" alt="SurfShare thumbnail">
     </a>
     <div class="pub-body">
       <p class="pub-title">
         <a href="/publications/surf-share" style="text-decoration:none">SurfShare: Lightweight Spatially Consistent Physical Surface and Virtual Replica Sharing with Head-Mounted Mixed Reality</a>
       </p>
-      <p class="pub-desc">Shares real surfaces and aligned virtual replicas with spatial consistency for quick collaboration.</p>
-      <p class="pub-cite">
-        Recommended citation: X. Huang <em>et&nbsp;al.</em> 2023. <em>SurfShare: Lightweight Spatially Consistent Physical Surface and Virtual Replica Sharing with Head-Mounted MR.</em> <strong>IMWUT</strong> 7(4).
-      </p>
+      <p class="pub-desc"><u>Xincheng Huang</u> and Robert Xiao. PACM IMWUT. 7, 4, Article 162 (December 2023), 24 pages. [<a href="https://doi.org/10.1145/3631418">Publisher</a>] [<a href="/publications/surf-share">Details</a>] [<a href="/files/3-surfshare.pdf">PDF</a>]</p>
     </div>
   </div>
 
   <!-- VR Telepresence (TVCG 2023) -->
   <div class="pub-item">
     <a class="pub-thumb" href="/publications/vr-telepresence">
-      <img src="/assets/img/pubs/vr-telepresence-thumb.jpg" alt="VR Telepresence thumbnail">
+      <img src="/images/thumbnails/vrtelepresence_tb.png" alt="VR Telepresence thumbnail">
     </a>
     <div class="pub-body">
       <p class="pub-title">
         <a href="/publications/vr-telepresence" style="text-decoration:none">Virtual Reality Telepresence: 360-Degree Video Streaming with Edge-Compute Assisted Static Foveated Compression</a>
       </p>
-      <p class="pub-desc">An edge-assisted, static-foveated 360° video pipeline that boosts quality-bandwidth trade-offs for VR telepresence.</p>
-      <p class="pub-cite">
-        Recommended citation: X. Huang <em>et&nbsp;al.</em> 2023. <em>Virtual Reality Telepresence: 360-Degree Video Streaming with Edge-Compute Assisted Static Foveated Compression.</em> <strong>IEEE TVCG</strong> (ISMAR SI).
-      </p>
+      <p class="pub-desc"><u>Xincheng Huang</u>, James Riddell, and Robert Xiao. IEEE TVCG. 29, 11 (November 2023), 11 pages. [<a href="https://doi.org/10.1109/TVCG.2023.3320255">Publisher</a>] [<a href="/publications/vr-telepresence">Details</a>] [<a href="/files/2-vrtelepresence.pdf">PDF</a>]</p>
     </div>
   </div>
 
   <!-- StructureSense (IMWUT 2022) -->
   <div class="pub-item">
     <a class="pub-thumb" href="/publications/structuresense">
-      <img src="/assets/img/pubs/structuresense-thumb.jpg" alt="StructureSense thumbnail">
+      <img src="/images/thumbnails/structuresense_tn.png" alt="StructureSense thumbnail">
     </a>
     <div class="pub-body">
       <p class="pub-title">
         <a href="/publications/structuresense" style="text-decoration:none">StructureSense: Inferring Constructive Assembly Structures from User Behaviors</a>
       </p>
-      <p class="pub-desc">Infers assembly structures from user actions to support guidance and verification in construction tasks.</p>
-      <p class="pub-cite">
-        Recommended citation: X. Huang <em>et&nbsp;al.</em> 2022. <em>StructureSense: Inferring Constructive Assembly Structures from User Behaviors.</em> <strong>IMWUT</strong> 6(4).
-      </p>
+      <p class="pub-desc"><u>Xincheng Huang</u>, Keylonnie L Miller, Alanson P. Sample, and Nikola Banovic. PACM IMWUT. 6, 4, Article 204 (December 2022), 25 pages. [<a href="https://doi.org/10.1145/3570343">Publisher</a>] [<a href="/publications/structuresense">Details</a>] [<a href="/files/1-structuresense.pdf">PDF</a>]</p>
     </div>
   </div>
 </div>
