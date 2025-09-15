@@ -9,9 +9,12 @@ main:
   - title: "Teaching"
     url: /teaching/    
         
-  - title: "Other"
+  - title: "News"
+    url: /news/
+
+  - title: "Other Projects"
     url: /other/
-    
+
   - title: "Download CV"
     url: /files/xincheng_huang_cv.pdf
     

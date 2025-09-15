@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=M0riTxcAAAAJ&hl=en"
-  email            : "xchuang@cs.ubc.ca"
+  email            : "xincheng.peterhuang@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -182,6 +182,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
+    output: true
+    permalink: /:collection/:path/
+  news:
     output: true
     permalink: /:collection/:path/
   talks:
