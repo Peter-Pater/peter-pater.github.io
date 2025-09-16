@@ -67,8 +67,6 @@ Before UBC, I received my M.S. at <a href="https://umich.edu/" style="text-decor
         <a href="/publications/gaussiannexus" style="text-decoration:none">GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting</a>
       </p>
       <p class="pub-desc"><u>Xincheng Huang</u>, Dieter Frehlich, Ziyi Xia, Peyman Gholami, and Robert Xiao. In Proc. UIST' 25. ACM, New York, NY, USA, 18 pages. [<a href="/publications/gaussiannexus">Details</a>]</p>
-      <!-- [<a href="https://doi.org/10.1145/3746059.3747693">Publisher</a>] -->
-      <!-- [<a href="/files/7-gaussiannexus.pdf">PDF</a>] -->
     </div>
   </div>
 
