@@ -9,7 +9,9 @@ author_profile: true
 
 [Sept 2025] I will attend <a href="https://uist.acm.org/2025/" style="text-decoration:none" target="_blank">UIST 2025</a> from Sept 28th--Oct 1st in Busan, Korea, to present <a href="/publications/gaussiannexus" style="text-decoration:none">GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting</a> and serve as a session chair for <a href="https://programs.sigchi.org/uist/2025/program/session/208721" style="text-decoration:none">Managing Tasks</a>.
 
-[Sept 2025] Our paper <a href="/publications/TangiAR" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a> has been accepted to <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a>!.
+[Sept 2025] Our paper <a href="/_publications/multisphere" style="text-decoration:none">MultiSphere: Latency Optimized Multi-User 360° VR Telepresence with Edge-Assisted Viewport Adaptive IPv6 Multicast</a> has been accepted to <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a> as a poster.
+
+[Sept 2025] Our paper <a href="/publications/TangiAR" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a> has been accepted to <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a>!
 
 [Aug 2025] Our paper <a href="/publications/gaussiannexus" style="text-decoration:none">GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting</a> has been accepted to <a href="https://uist.acm.org/2025/" style="text-decoration:none" target="_blank">UIST 2025</a>!
 

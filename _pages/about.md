@@ -14,7 +14,7 @@ My Ph.D. thesis revolves around making spatial telepresence more natural by enha
 
 Beside my thesis work, I am also broadly interested in AR/VR interactive techniques and sensing. I have explored assembly tracking with RFID sensing, touch inputs on physical surfaces for AR, and gesture sensing through piezo signals. My research has let to publications in ACM CHI, UIST, Ubicomp/IMWUT, and IEEE TVCG. For a full list, please see <a href="/publications" style="text-decoration:none">publications</a>. 
 
-Before UBC, I received my M.S. at <a href="https://umich.edu/" style="text-decoration:none" target="_blank">University of Michigan</a>, where advised by <a href="http://www.nikolabanovic.net/" style="text-decoration:none" target="_blank">Nikola Banovic</a> and <a href="https://www.alansonsample.com/" style="text-decoration:none" target="_blank">Alanson Sample</a>. Before that, I obtained my B.S. from <a href="https://shanghai.nyu.edu/" style="text-decoration:none" target="_blank">New York University Shanghai</a>.
+Before UBC, I received my M.S. in Computer Science and Engineering at <a href="https://umich.edu/" style="text-decoration:none" target="_blank">University of Michigan</a>, advised by <a href="http://www.nikolabanovic.net/" style="text-decoration:none" target="_blank">Nikola Banovic</a> and <a href="https://www.alansonsample.com/" style="text-decoration:none" target="_blank">Alanson Sample</a>. Before that, I obtained my B.S. in Computer Science from <a href="https://shanghai.nyu.edu/" style="text-decoration:none" target="_blank">New York University Shanghai</a>.
 
  <!-- During my leisure time, I enjoy playing guitar and tennis. -->
 
