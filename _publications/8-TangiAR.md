@@ -11,7 +11,7 @@ citation: "Xu Fan, Xincheng Huang, and Robert Xiao. 2025. <i>TangiAR</i>: Marker
 <b>Abstract</b>: Tangible interactions with everyday objects have been shown to be fast, accurate, and natural, and have shown promise when combined with immersive augmented reality. However, implementing tangible controls presents considerable challenges. Previous works in the field either rely on additional tracking markers on objects, inadvertently shifting the difficulty to users, or are too computationally demanding for real-time operation on a head-mounted display (HMD). We propose TangiAR, a tangible control system which tracks everyday objects without the need for fiducial trackers, enabling them as passive controllers and virtual proxies in AR applications. TangiAR additionally enables hand and finger proximity interactions with tangibles, further expanding the interaction space. TangiAR can run on an unmodified Microsoft HoloLens 2, making it immediately practical. We evaluated the performance of TangiAR through a technical evaluation, including occlusion robustness and tracking accuracy tests, and a user study which examined the usability of our markerless object tracking system in various AR interactions.
 <br/>
 
-**Paper**: Coming Soon :-)
+**Paper**: [DOWNLOAD PDF](/files/8-tangiar.pdf){:target="_blank"}
 
 <b>Demo</b>:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CFTyj94LUTI?si=JUppsryl1sU9kPix" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

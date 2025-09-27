@@ -11,8 +11,8 @@ citation: "Dieter Frehlich, Xincheng Huang, and Robert Xiao. 2025. MultiSphere: 
 <b>Abstract</b>: 360° video telepresence with VR enables immersive remote collaboration, but scaling to multiple users is subject to bandwidth and latency constraints. We present MultiSphere, a multi-user edge-assisted 360° VR telepresence system, that combines viewport-adaptive IPv6 multicast tiling with a novel dual keyframe interval (KeyInt) streaming technique. Our approach addresses the latency bottleneck inherent in joining live streams of video using standard video codecs while maintaining visual quality through strategic use of low and high KeyInt streams. Our system achieves 75-94% bandwidth savings and an average request-to-arrival latency of 56ms, a 79% reduction compared to using a regular single-KeyInt stream.
 <br/>
 
-**Paper**: Coming Soon :-)
+**Paper**: [DOWNLOAD PDF](/files/9-multisphere.pdf){:target="_blank"}
 
-<!-- <b>Demo</b>:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CFTyj94LUTI?si=JUppsryl1sU9kPix" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br/> -->
+<b>Demo</b>:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xpDi2MGzPRw?si=82dG0JunqBhHIMIx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br/>
