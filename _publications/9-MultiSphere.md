@@ -13,6 +13,6 @@ citation: "Dieter Frehlich, Xincheng Huang, and Robert Xiao. 2025. MultiSphere: 
 
 **Paper**: [DOWNLOAD PDF](/files/9-multisphere.pdf){:target="_blank"}
 
-<!-- <b>Demo</b>:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpDi2MGzPRw?si=82dG0JunqBhHIMIx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br/> -->
+<b>Demo</b>:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aQW0IrnREw8?si=hVc0movWANLeYseE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br/>
