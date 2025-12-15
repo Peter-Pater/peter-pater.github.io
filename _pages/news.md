@@ -7,9 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-[Oct 2025] I was invited to give a research talk at <a href="https://www.utdallas.edu/" style="text-decoration:none" target="_blank">the University of Texas at Dallas</a> (hosted by <a href="https://jessekim.com/" style="text-decoration:none" target="_blank">Dr. Jin Ryong Kim</a>) on my thesis topic: <em>Together from Afar: Together from Afar: Toward More Natural Spatial Telepresence</em>.
+[Dec 2025] Our paper <a href="/publications/look2react" style="text-decoration:none">Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions (Conditionally Accepted to IEEE VR 2026)</a> has been conditionally accepted to IEEEVR 2026!
 
-[Oct 2025] I was invited to give a research talk at <a href="https://www.tsinghua.edu.cn/en/" style="text-decoration:none" target="_blank">Tsinghua University</a> (hosted by <a href="https://www.insc.tsinghua.edu.cn/inscen/info/1255/1114.htm" style="text-decoration:none" target="_blank">Dr. Xin Yi</a>) on my thesis topic: <em>Together from Afar: Together from Afar: Toward More Natural Spatial Telepresence</em>.
+[Nov 2025] I attended <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a> from Nov 12th--Nov 14 in Montreal, Canada, to present <a href="/publications/multisphere" style="text-decoration:none">MultiSphere: Latency Optimized Multi-User 360° VR Telepresence with Edge-Assisted Viewport Adaptive IPv6 Multicast</a> and <a href="/publications/TangiAR" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a>.
+
+[Oct 2025] I gave a research talk at <a href="https://www.utdallas.edu/" style="text-decoration:none" target="_blank">the University of Texas at Dallas</a> (hosted by <a href="https://jessekim.com/" style="text-decoration:none" target="_blank">Dr. Jin Ryong Kim</a>) on my thesis topic: <em>Together from Afar: Together from Afar: Toward More Natural Spatial Telepresence</em>.
+
+[Oct 2025] I gave a research talk at <a href="https://www.tsinghua.edu.cn/en/" style="text-decoration:none" target="_blank">Tsinghua University</a> (hosted by <a href="https://www.insc.tsinghua.edu.cn/inscen/info/1255/1114.htm" style="text-decoration:none" target="_blank">Dr. Xin Yi</a>) on my thesis topic: <em>Together from Afar: Together from Afar: Toward More Natural Spatial Telepresence</em>.
 
 [Sept 2025] I will attend <a href="https://uist.acm.org/2025/" style="text-decoration:none" target="_blank">UIST 2025</a> from Sept 28th--Oct 1st in Busan, Korea, to present <a href="/publications/gaussiannexus" style="text-decoration:none">GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting</a> and serve as a session chair for <a href="https://programs.sigchi.org/uist/2025/program/session/208721" style="text-decoration:none">Managing Tasks</a>.
 
