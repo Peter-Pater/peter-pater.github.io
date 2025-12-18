@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-[Dec 2025] Our paper <a href="/publications/look2react" style="text-decoration:none">Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions (Conditionally Accepted to IEEE VR 2026)</a> has been conditionally accepted to IEEEVR 2026!
+[Dec 2025] Our paper <a href="/publications/look2react" style="text-decoration:none">Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions (Conditionally Accepted to IEEE VR 2026)</a> has been conditionally accepted to <a href="https://ieeevr.org/2026/" style="text-decoration:none">IEEEVR 2026</a>!
 
 [Nov 2025] I attended <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a> from Nov 12th--Nov 14 in Montreal, Canada, to present <a href="/publications/multisphere" style="text-decoration:none">MultiSphere: Latency Optimized Multi-User 360° VR Telepresence with Edge-Assisted Viewport Adaptive IPv6 Multicast</a> and <a href="/publications/TangiAR" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a>.
 
