@@ -9,7 +9,7 @@ author_profile: true
 
 [Dec 2025] Our paper <a href="/publications/look2react" style="text-decoration:none">Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions (Conditionally Accepted to IEEE VR 2026)</a> has been conditionally accepted to <a href="https://ieeevr.org/2026/" style="text-decoration:none">IEEEVR 2026</a>!
 
-[Nov 2025] I attended <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a> from Nov 12th--Nov 14 in Montreal, Canada, to present <a href="/publications/multisphere" style="text-decoration:none">MultiSphere: Latency Optimized Multi-User 360° VR Telepresence with Edge-Assisted Viewport Adaptive IPv6 Multicast</a> and <a href="/publications/TangiAR" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a>.
+[Nov 2025] I attended <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a> from Nov 12th--Nov 14 in Montreal, Canada, to present <a href="/publications/multisphere" style="text-decoration:none">MultiSphere: Latency Optimized Multi-User 360° VR Telepresence with Edge-Assisted Viewport Adaptive IPv6 Multicast</a> and <a href="/publications/tangiar" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a>.
 
 [Oct 2025] I gave a research talk at <a href="https://www.utdallas.edu/" style="text-decoration:none" target="_blank">the University of Texas at Dallas</a> (hosted by <a href="https://jessekim.com/" style="text-decoration:none" target="_blank">Dr. Jin Ryong Kim</a>) on my thesis topic: <em>Together from Afar: Together from Afar: Toward More Natural Spatial Telepresence</em>.
 
@@ -19,7 +19,7 @@ author_profile: true
 
 [Sept 2025] Our paper <a href="/_publications/multisphere" style="text-decoration:none">MultiSphere: Latency Optimized Multi-User 360° VR Telepresence with Edge-Assisted Viewport Adaptive IPv6 Multicast</a> has been accepted to <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a> as a poster.
 
-[Sept 2025] Our paper <a href="/publications/TangiAR" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a> has been accepted to <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a>!
+[Sept 2025] Our paper <a href="/publications/tangiar" style="text-decoration:none">TangiAR: Markerless Tangible Input for Immersive Augmented Reality with Everyday Objects</a> has been accepted to <a href="https://vrst.acm.org/vrst2025/" style="text-decoration:none" target="_blank">VRST 2025</a>!
 
 [Aug 2025] Our paper <a href="/publications/gaussiannexus" style="text-decoration:none">GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting</a> has been accepted to <a href="https://uist.acm.org/2025/" style="text-decoration:none" target="_blank">UIST 2025</a>!
 
