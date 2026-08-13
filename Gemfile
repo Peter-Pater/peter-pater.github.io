@@ -16,7 +16,10 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# `wdm` is optional and does not compile on Ruby 3.x. Jekyll falls back to
+# polling for file changes on current Windows Ruby releases.
+gem "wdm", "~> 0.1.0" if Gem.win_platform? && RUBY_VERSION < "3.0"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
