@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editorial Monograph Mockup — Xincheng Huang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --surface: #ffffff;
+      --surface-alt: #f3f1ec;
+      --text: #1c1d20;
+      --muted: #5a5e66;
+      --border: #e5e2da;
+      --accent: #2c6e85;
+      --accent-soft: rgba(44, 110, 133, 0.1);
+      --pill-bg: #efede7;
+      --shadow: 0 2px 12px rgba(20, 22, 26, 0.04);
+    }
+
+    html[data-theme="dark"] {
+      --bg: #14181f;
+      --surface: #1b2029;
+      --surface-alt: #212733;
+      --text: #e6edf3;
+      --muted: #9aa4b2;
+      --border: #2a3342;
+      --accent: #6ec6e0;
+      --accent-soft: rgba(110, 198, 224, 0.12);
+      --pill-bg: #232a36;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Mockup Banner */
+    .mockup-bar {
+      background: #111419;
+      color: #c5ceda;
+      font-size: 12px;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #262c36;
+    }
+    .mockup-bar__label { opacity: 0.8; font-family: 'JetBrains Mono', monospace; }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Navigation */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 20px 0;
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .nav__brand {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: 1.35rem;
+      font-weight: 500;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+    .nav__right {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+    .nav__links {
+      display: flex;
+      gap: 20px;
+      font-size: 0.92rem;
+    }
+    .nav__links a { color: var(--muted); font-weight: 500; }
+    .nav__links a:hover { color: var(--text); text-decoration: none; }
+
+    .theme-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      font-size: 15px;
+    }
+
+    /* Hero */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      gap: 40px;
+      align-items: start;
+      padding: 56px 0 40px;
+    }
+    .hero__eyebrow {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+    .hero h1 {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: 2.75rem;
+      line-height: 1.12;
+      font-weight: 500;
+      margin: 0 0 16px;
+      letter-spacing: -0.02em;
+    }
+    .hero__lead {
+      font-size: 1.05rem;
+      color: var(--text);
+      margin: 0 0 14px;
+    }
+    .hero__bio {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0 0 22px;
+    }
+    .hero__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pill-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 13px;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 500;
+      background: var(--pill-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    .pill-link:hover { border-color: var(--accent); text-decoration: none; transform: translateY(-1px); }
+    .pill-link--primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    html[data-theme="dark"] .pill-link--primary { color: #14181f; }
+
+    .hero__photo {
+      width: 200px;
+      height: 230px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    .hero__photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* 3-Pillar Strip */
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      padding: 24px 0 44px;
+      border-bottom: 1px solid var(--border);
+    }
+    .pillar {
+      padding: 16px 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .pillar__num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .pillar__title {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 0 0 6px;
+    }
+    .pillar p {
+      margin: 0;
+      font-size: 0.86rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* Section Headings */
+    section { padding: 44px 0; border-bottom: 1px solid var(--border); }
+    section:last-of-type { border-bottom: none; }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+    .section-head h2 {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: 1.75rem;
+      font-weight: 500;
+      margin: 0;
+      letter-spacing: -0.01em;
+    }
+    .section-head a {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* News List */
+    .news-list { list-style: none; margin: 0; padding: 0; }
+    .news-item {
+      display: grid;
+      grid-template-columns: 96px 1fr;
+      gap: 16px;
+      padding: 10px 0;
+      border-bottom: 1px dashed var(--border);
+      font-size: 0.93rem;
+    }
+    .news-item:last-child { border-bottom: none; }
+    .news-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--muted);
+      padding-top: 2px;
+    }
+
+    /* Publications */
+    .pub-list { display: flex; flex-direction: column; gap: 24px; }
+    .pub {
+      display: grid;
+      grid-template-columns: 185px 1fr;
+      gap: 22px;
+      align-items: start;
+    }
+    .pub__thumb {
+      width: 185px;
+      height: 122px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: var(--surface-alt);
+    }
+    .pub__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .pub__venue {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .pub__title {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: 1.22rem;
+      font-weight: 500;
+      line-height: 1.3;
+      margin: 0 0 6px;
+    }
+    .pub__title a { color: var(--text); }
+    .pub__authors {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin: 0 0 10px;
+    }
+    .pub__authors strong { color: var(--text); font-weight: 600; }
+    .pub__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.76rem;
+    }
+    .pub__btn {
+      padding: 3px 9px;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      color: var(--muted);
+      background: var(--surface);
+      cursor: pointer;
+    }
+    .pub__btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+    .bibtex-box {
+      display: none;
+      margin-top: 10px;
+      padding: 10px 12px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.74rem;
+      white-space: pre-wrap;
+      color: var(--muted);
+    }
+    .bibtex-box.open { display: block; }
+
+    footer {
+      padding: 32px 0 48px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.84rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    @media (max-width: 720px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero__photo { order: -1; width: 140px; height: 155px; }
+      .pillars { grid-template-columns: 1fr; }
+      .pub { grid-template-columns: 1fr; }
+      .pub__thumb { width: 100%; height: 170px; }
+      .nav__links { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="mockup-bar">
+    <span class="mockup-bar__label">SAVED REDESIGN REFERENCE · Option 1: Editorial Monograph</span>
+    <span class="mockup-bar__label">See _design/redesign-plan.md</span>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a class="nav__brand" href="#">Xincheng Huang</a>
+      <div class="nav__right">
+        <nav class="nav__links">
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#other">Projects</a>
+          <a href="#">CV</a>
+        </nav>
+        <button class="theme-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="border-bottom: none; padding-bottom: 12px;">
+      <div>
+        <div class="hero__eyebrow">Ph.D. Candidate · Computer Science · UBC</div>
+        <h1>Making spatial telepresence feel natural, interactive, and shared.</h1>
+        <p class="hero__lead">
+          I am a Ph.D. student in Computer Science at the <a href="#">University of British Columbia</a>, supervised by Dr. <a href="#">Robert Xiao</a>. My research lies in <strong>Human-Computer Interaction (HCI)</strong>, <strong>AR/VR interactive techniques</strong>, and <strong>sensing</strong>.
+        </p>
+        <p class="hero__bio">
+          Previously: M.S. in CSE at the University of Michigan (with Nikola Banovic &amp; Alanson Sample); B.S. in CS at NYU Shanghai.
+        </p>
+        <div class="hero__actions">
+          <a class="pill-link pill-link--primary" href="#">Download CV</a>
+          <a class="pill-link" href="#">Google Scholar</a>
+          <a class="pill-link" href="#">GitHub</a>
+          <a class="pill-link" href="#">ORCID</a>
+          <a class="pill-link" href="#">Email</a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <img src="../images/profile1.jpeg" alt="Xincheng Huang">
+      </div>
+    </section>
+
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar__num">01 / REALISM</div>
+        <h3 class="pillar__title">Hyper-Realistic Scenes</h3>
+        <p>360° video streaming, NeRF, and real-time Gaussian Splatting aligned across heterogeneous rooms.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__num">02 / INTERACTIVITY</div>
+        <h3 class="pillar__title">Physical–Virtual Agency</h3>
+        <p>Remote navigation and sharing 2D surfaces and 3D physical objects across distance.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__num">03 / AWARENESS</div>
+        <h3 class="pillar__title">Collaborative Presence</h3>
+        <p>Drawing on groupware and proxemics literature to support fluid multi-user awareness.</p>
+      </div>
+    </div>
+
+    <section id="news">
+      <div class="section-head">
+        <h2>Latest News</h2>
+        <a href="#">All news (14) →</a>
+      </div>
+      <ul class="news-list">
+        <li class="news-item">
+          <span class="news-date">Dec 2025</span>
+          <span><strong>Look2React</strong> conditionally accepted to <a href="#">IEEE VR 2026</a> (TVCG).</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">Nov 2025</span>
+          <span>Presented <strong>MultiSphere</strong> and <strong>TangiAR</strong> at <a href="#">ACM VRST 2025</a> in Montreal.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">Oct 2025</span>
+          <span>Invited thesis talks at <strong>UT Dallas</strong> and <strong>Tsinghua University</strong> on spatial telepresence.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">Sep 2025</span>
+          <span>Presented <strong>GaussianNexus</strong> and served as Session Chair at <a href="#">ACM UIST 2025</a> in Busan.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <div class="section-head">
+        <h2>Selected Publications</h2>
+        <a href="#">Full list (12) →</a>
+      </div>
+      <div class="pub-list">
+        <article class="pub">
+          <div class="pub__thumb">
+            <img src="../images/thumbnails/gaussiannexus_tn.png" alt="GaussianNexus">
+          </div>
+          <div>
+            <span class="pub__venue">UIST '25</span>
+            <h3 class="pub__title"><a href="#">GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting</a></h3>
+            <p class="pub__authors"><strong>Xincheng Huang</strong>, Dieter Frehlich, Ziyi Xia, Peyman Gholami, Robert Xiao</p>
+            <div class="pub__links">
+              <a class="pub__btn" href="#">PDF</a>
+              <a class="pub__btn" href="#">DOI</a>
+              <a class="pub__btn" href="#">Video</a>
+              <button class="pub__btn" type="button" onclick="toggleBib('bib1')">BibTeX</button>
+            </div>
+            <pre class="bibtex-box" id="bib1">@inproceedings{huang2025gaussiannexus,
+  title={GaussianNexus: Room-Scale Real-Time AR/VR Telepresence with Gaussian Splatting},
+  author={Huang, Xincheng and Frehlich, Dieter and Xia, Ziyi and Gholami, Peyman and Xiao, Robert},
+  booktitle={Proceedings of ACM UIST '25},
+  year={2025}
+}</pre>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub__thumb">
+            <img src="../images/thumbnails/virtualnexus_tn.png" alt="VirtualNexus">
+          </div>
+          <div>
+            <span class="pub__venue">UIST '24</span>
+            <h3 class="pub__title"><a href="#">VirtualNexus: Enhancing 360-Degree Video AR/VR Collaboration with Environment Cutouts and Virtual Replicas</a></h3>
+            <p class="pub__authors"><strong>Xincheng Huang</strong>, Michael Yin, Ziyi Xia, Robert Xiao</p>
+            <div class="pub__links">
+              <a class="pub__btn" href="#">PDF</a>
+              <a class="pub__btn" href="#">DOI</a>
+              <a class="pub__btn" href="#">Video</a>
+              <button class="pub__btn" type="button" onclick="toggleBib('bib2')">BibTeX</button>
+            </div>
+            <pre class="bibtex-box" id="bib2">@inproceedings{huang2024virtualnexus,
+  title={VirtualNexus: Enhancing 360-Degree Video AR/VR Collaboration with Environment Cutouts and Virtual Replicas},
+  author={Huang, Xincheng and Yin, Michael and Xia, Ziyi and Xiao, Robert},
+  booktitle={Proceedings of ACM UIST '24},
+  year={2024}
+}</pre>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub__thumb">
+            <img src="../images/thumbnails/surfshare_tn.jpeg" alt="SurfShare">
+          </div>
+          <div>
+            <span class="pub__venue">IMWUT '23</span>
+            <h3 class="pub__title"><a href="#">SurfShare: Lightweight Spatially Consistent Physical Surface and Virtual Replica Sharing with Head-Mounted Mixed Reality</a></h3>
+            <p class="pub__authors"><strong>Xincheng Huang</strong>, Robert Xiao</p>
+            <div class="pub__links">
+              <a class="pub__btn" href="#">PDF</a>
+              <a class="pub__btn" href="#">DOI</a>
+              <a class="pub__btn" href="#">Video</a>
+              <button class="pub__btn" type="button" onclick="toggleBib('bib3')">BibTeX</button>
+            </div>
+            <pre class="bibtex-box" id="bib3">@article{huang2023surfshare,
+  title={SurfShare: Lightweight Spatially Consistent Physical Surface and Virtual Replica Sharing},
+  author={Huang, Xincheng and Xiao, Robert},
+  journal={PACM IMWUT},
+  year={2023}
+}</pre>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub__thumb">
+            <img src="../images/thumbnails/vrtelepresence_tb.png" alt="VR Telepresence">
+          </div>
+          <div>
+            <span class="pub__venue">IEEE TVCG '23</span>
+            <h3 class="pub__title"><a href="#">Virtual Reality Telepresence: 360-Degree Video Streaming with Edge-Compute Assisted Static Foveated Compression</a></h3>
+            <p class="pub__authors"><strong>Xincheng Huang</strong>, James Riddell, Robert Xiao</p>
+            <div class="pub__links">
+              <a class="pub__btn" href="#">PDF</a>
+              <a class="pub__btn" href="#">DOI</a>
+              <button class="pub__btn" type="button" onclick="toggleBib('bib4')">BibTeX</button>
+            </div>
+            <pre class="bibtex-box" id="bib4">@article{huang2023vrtelepresence,
+  title={Virtual Reality Telepresence: 360-Degree Video Streaming with Static Foveated Compression},
+  author={Huang, Xincheng and Riddell, James and Xiao, Robert},
+  journal={IEEE TVCG},
+  year={2023}
+}</pre>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="teaching">
+      <div class="section-head">
+        <h2>Service &amp; Teaching</h2>
+      </div>
+      <p style="margin:0; color: var(--muted); font-size: 0.94rem;">
+        <strong>Program Committee / AC:</strong> CHI 2025 Late-Breaking Work · <strong>Session Chair:</strong> UIST 2025 (Managing Tasks) · <strong>Teaching:</strong> UBC CS &amp; UMich CSE courses.
+      </p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <span>© 2026 Xincheng Huang · Vancouver, Canada</span>
+    <span>Editorial Monograph Mockup · Light &amp; Soft Slate Dark</span>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('themeBtn');
+    btn.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      btn.textContent = next === 'dark' ? '☀️' : '🌙';
+    });
+    function toggleBib(id) {
+      document.getElementById(id).classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
