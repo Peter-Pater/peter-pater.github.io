@@ -24,13 +24,13 @@ Before UBC, I received my M.S. in Computer Science and Engineering at <a href="h
   .pubs h2 { margin-bottom: 1rem; }
   .pub-item {
     display: flex; gap: 1rem; align-items: flex-start;
-    padding: 0.8rem; border-top: solid; border-width: 1px 0 0 0; border-color: var(--border, #e5e7eb);
-    background: var(--bg, #fff);
+    padding: 0.8rem; border-top: solid; border-width: 1px 0 0 0; border-color: var(--pub-border, #e5e7eb);
+    background: var(--pub-bg, #fff);
     /* margin-bottom: 0.9rem; */
   }
   .pub-thumb {
     flex: 0 0 200px; width: 200px; height: 150px; overflow: hidden; border-radius: 10px;
-    background: #f3f4f6;
+    background: var(--pub-thumb-bg, #f3f4f6);
   }
   .pub-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .pub-body { flex: 1; min-width: 0; }
@@ -39,13 +39,8 @@ Before UBC, I received my M.S. in Computer Science and Engineering at <a href="h
   }
   .pub-desc { margin: 0 0 0.1rem; }
   .pub-cite {
-    font-size: 0.95em; color: #4b5563; margin: 0;
+    font-size: 0.95em; color: var(--pub-cite-color, #4b5563); margin: 0;
   }
-  /* Light/Dark variables (optional)
-  @media (prefers-color-scheme: dark) {
-    .pub-item { --bg: #0b0f18; --border: #1f2937; }
-    .pub-cite { color: #9ca3af; }
-  } */
   /* Small screens */
   @media (max-width: 600px) {
     .pub-item { flex-direction: column; }

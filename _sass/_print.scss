@@ -7,6 +7,23 @@
    ========================================================================== */
 
 @media print {
+  :root,
+  html[data-theme="dark"] {
+    color-scheme: light;
+    --bg-color: #ffffff;
+    --surface-color: #ffffff;
+    --surface-muted-color: #f2f3f3;
+    --code-bg-color: #fafafa;
+    --text-color: #000000;
+    --muted-text-color: #555555;
+    --border-color: #dddddd;
+    --border-strong-color: #bbbbbb;
+    --pub-bg: #ffffff;
+    --pub-border: #e5e7eb;
+    --pub-thumb-bg: #f3f4f6;
+    --pub-cite-color: #4b5563;
+  }
+
   .masthead,
   .toc,
   .page__share,

@@ -4,7 +4,8 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-color);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -32,6 +33,18 @@
 }
 
 .masthead__menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+
+  #site-nav {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    min-width: 0;
+  }
 
   ul {
     margin: 0;

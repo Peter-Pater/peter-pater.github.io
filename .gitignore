@@ -5,4 +5,5 @@ _site/
 .bundle-user/
 /vendor/bundle/
 .jekyll-cache/
+node_modules/
 

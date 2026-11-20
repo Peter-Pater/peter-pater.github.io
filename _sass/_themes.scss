@@ -1,0 +1,229 @@
+/* ==========================================================================
+   THEMES (Light & Soft Slate Dark)
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  --bg-color: #{$background-color};
+  --surface-color: #ffffff;
+  --surface-muted-color: #{$lighter-gray};
+  --surface-hover-color: #{mix(#fff, $primary-color, 75%)};
+  --code-bg-color: #{$code-background-color};
+  --code-badge-bg-color: #{$lighter-gray};
+
+  --text-color: #{$text-color};
+  --muted-text-color: #{mix(#fff, $gray, 25%)};
+  --caption-color: #{mix(#fff, $text-color, 25%)};
+  --disabled-text-color: #{mix(#fff, $gray, 75%)};
+
+  --border-color: #{$border-color};
+  --border-strong-color: #{$light-gray};
+  --input-border-color: #{mix(#fff, #000, 80%)};
+  --input-hover-border-color: #{mix(#fff, $primary-color, 50%)};
+
+  --link-color: #{$link-color};
+  --link-color-hover: #{$link-color-hover};
+  --link-color-visited: #{$link-color-visited};
+
+  --masthead-link-color: #{$masthead-link-color};
+  --masthead-link-color-hover: #{$masthead-link-color-hover};
+  --masthead-underline-color: #{mix(#fff, $primary-color, 50%)};
+
+  --footer-bg-color: #{$lighter-gray};
+  --footer-border-color: #{$light-gray};
+  --footer-text-color: #{mix(#fff, $gray, 25%)};
+
+  --btn-inverse-color: #{$gray};
+  --btn-inverse-bg: #ffffff;
+  --btn-inverse-border: #{$light-gray};
+
+  --selection-bg: #000000;
+  --selection-color: #ffffff;
+
+  --shadow-color: rgba(0, 0, 0, 0.125);
+  --shadow-dropdown: 0 0 10px rgba(0, 0, 0, 0.25);
+  --overlay-bg: rgba(255, 255, 255, 0.85);
+  --form-overlay-bg: rgba(255, 255, 255, 0.7);
+
+  --well-bg: #f5f5f5;
+  --well-border: #e3e3e3;
+
+  --social-icon-default: #000000;
+  --social-icon-github: #{$github-color};
+
+  /* Selected Publications */
+  --pub-bg: #ffffff;
+  --pub-border: #e5e7eb;
+  --pub-thumb-bg: #f3f4f6;
+  --pub-cite-color: #4b5563;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg-color: #14181f;
+  --surface-color: #1d232d;
+  --surface-muted-color: #1b212b;
+  --surface-hover-color: #262f3d;
+  --code-bg-color: #1a202a;
+  --code-badge-bg-color: #252d3a;
+
+  --text-color: #e6edf3;
+  --muted-text-color: #9aa4b2;
+  --caption-color: #a8b3c2;
+  --disabled-text-color: #5c6675;
+
+  --border-color: #2a3342;
+  --border-strong-color: #3a4558;
+  --input-border-color: #3a4558;
+  --input-hover-border-color: #5a6b82;
+
+  --link-color: #6ec6e0;
+  --link-color-hover: #96daee;
+  --link-color-visited: #59a8c2;
+
+  --masthead-link-color: #b8c2cf;
+  --masthead-link-color-hover: #ffffff;
+  --masthead-underline-color: #6ec6e0;
+
+  --footer-bg-color: #10141a;
+  --footer-border-color: #2a3342;
+  --footer-text-color: #9aa4b2;
+
+  --btn-inverse-color: #e6edf3;
+  --btn-inverse-bg: #1d232d;
+  --btn-inverse-border: #3a4558;
+
+  --selection-bg: #6ec6e0;
+  --selection-color: #14181f;
+
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --shadow-dropdown: 0 4px 16px rgba(0, 0, 0, 0.55);
+  --overlay-bg: rgba(14, 18, 24, 0.85);
+  --form-overlay-bg: rgba(20, 24, 31, 0.75);
+
+  --well-bg: #1d232d;
+  --well-border: #2a3342;
+
+  --social-icon-default: #e6edf3;
+  --social-icon-github: #e6edf3;
+
+  /* Selected Publications */
+  --pub-bg: #14181f;
+  --pub-border: #2a3342;
+  --pub-thumb-bg: #1d232d;
+  --pub-cite-color: #9aa4b2;
+}
+
+/*
+   Theme toggle button in masthead
+   ========================================================================== */
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-left: 0.75rem;
+  padding: 0;
+  border: 1px solid var(--border-strong-color);
+  border-radius: 50%;
+  background-color: var(--surface-color);
+  color: var(--masthead-link-color);
+  cursor: pointer;
+  line-height: 1;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+
+  &:hover {
+    color: var(--masthead-link-color-hover);
+    border-color: var(--masthead-link-color-hover);
+    background-color: var(--surface-muted-color);
+  }
+
+  &:focus {
+    @extend %tab-focus;
+  }
+
+  .theme-toggle__icon--sun {
+    display: none;
+  }
+
+  .theme-toggle__icon--moon {
+    display: inline-block;
+  }
+}
+
+html[data-theme="dark"] .theme-toggle {
+  .theme-toggle__icon--sun {
+    display: inline-block;
+    color: #f6c945;
+  }
+
+  .theme-toggle__icon--moon {
+    display: none;
+  }
+}
+
+/*
+   Dark mode notice overrides
+   ========================================================================== */
+
+html[data-theme="dark"] {
+  .notice {
+    background-color: #212833;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    code { background-color: #1a202a; }
+    a { color: #b8c2cf; &:hover { color: #ffffff; } }
+  }
+
+  .notice--primary {
+    background-color: #222936;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    code { background-color: #1a202a; }
+    a { color: #b8c2cf; &:hover { color: #ffffff; } }
+  }
+
+  .notice--info {
+    background-color: #162934;
+    box-shadow: 0 1px 1px rgba(82, 173, 200, 0.2);
+    code { background-color: #13222b; }
+    a { color: #7cd0ea; &:hover { color: #aee4f4; } }
+  }
+
+  .notice--warning {
+    background-color: #302412;
+    box-shadow: 0 1px 1px rgba(248, 148, 6, 0.2);
+    code { background-color: #261c0e; }
+    a { color: #f9b54c; &:hover { color: #fbd08a; } }
+  }
+
+  .notice--success {
+    background-color: #172b1b;
+    box-shadow: 0 1px 1px rgba(98, 196, 98, 0.2);
+    code { background-color: #132316; }
+    a { color: #82d682; &:hover { color: #aee6ae; } }
+  }
+
+  .notice--danger {
+    background-color: #32191a;
+    box-shadow: 0 1px 1px rgba(238, 95, 91, 0.2);
+    code { background-color: #271314; }
+    a { color: #f38b88; &:hover { color: #f8b4b2; } }
+  }
+
+  /* Solarized Dark syntax highlighting */
+  .highlight {
+    .c, .cm, .c1, .sb { color: #6c7c88; }
+    .err, .g, .l, .n, .p, .ge, .go, .gp, .gs, .gt, .ld, .na, .nl, .nn, .nx, .py, .w, .sd, .sh { color: #c5d1de; }
+    .k, .o, .cp, .cs, .gi, .kn, .kp, .ow { color: #98c379; }
+    .x, .gh, .gu, .kc, .no, .ni, .ne, .se { color: #e08b53; }
+    .gd, .m, .s, .mf, .mh, .mi, .mo, .sc, .s2, .si, .sx, .s1, .ss, .il { color: #56b6c2; }
+    .gr, .kt, .sr { color: #e06c75; }
+    .kd, .kr, .nc, .nd, .nf, .nt, .nv, .bp, .vc, .vg, .vi { color: #61afef; }
+    .nb { color: #e5c07b; }
+  }
+}
